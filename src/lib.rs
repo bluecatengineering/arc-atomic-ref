@@ -7,7 +7,7 @@
 //! modify it.
 //!
 //! ```rust
-//! use atomic_ref::AtomicRef;
+//! use arc_atomic_ref::AtomicRef;
 //! use std::sync::Arc;
 //! let ptr = AtomicRef::new(1);
 //! // share ptr with many threads with `clone`
